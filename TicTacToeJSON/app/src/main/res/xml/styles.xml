@@ -1,0 +1,12 @@
+<!-- styles.xml or within the resources -->
+<style name="TicTacToeCell">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">0dp</item>
+    <item name="android:layout_rowWeight">1</item>
+    <item name="android:layout_columnWeight">1</item>
+    <item name="android:layout_gravity">fill</item>
+    <item name="android:layout_margin">4dp</item>
+    <item name="android:background">@drawable/cell_background</item>
+    <item name="android:textSize">48sp</item>
+    <item name="android:textStyle">bold</item>
+</style>
